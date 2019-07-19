@@ -1,0 +1,37 @@
+.alert {
+  width: 100%;
+  padding: 20rem;
+  display: inline-block;
+  border-radius: 4rem;
+
+  &:before {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    display: inline-block;
+    content: 'X';
+    border-radius: 1000px;
+  }
+  
+  &__text {
+    color: $body-bg;
+  }
+
+  &--warning {
+    background: $brand-warning;
+
+    &:before {
+      background-color: $brand-warning;
+      background-position:-47px 7px;
+    }
+  }
+
+  &--info {
+    background: $brand-info;
+
+    &:before {
+      background-color: $brand-info;
+      background-position:-47px 7px;
+    }
+  }
+}

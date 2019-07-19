@@ -1,0 +1,120 @@
+// DUPLICATIONS WITH SAME SELECTORS
+// ------------------------
+
+.duplication-type-1 {
+  color: #F00;
+  border: 1px solid #a23;
+}
+
+.duplication-type-1 {
+  border: 1px solid #a23;
+  color: #F00;
+}
+
+.duplication-type-2 {
+  color: #EE82EE;
+  padding: 1px 2px;
+}
+
+.duplication-type-2 {
+  color: rgba(238, 130, 238, 1);
+}
+
+.duplication-type-2 {
+  padding: 1px 2px 1px 2px;
+}
+
+.duplication-type-3-a {
+  margin-top: 1px;
+  margin-left: 2px;
+  margin-bottom: 3px;
+  margin-right: 4px;
+}
+
+.duplication-type-3-a {
+  margin: 1px 2px 3px 4px;
+}
+
+.duplication-type-3-b {
+  border: 1px solid #EE82EE;
+}
+
+.duplication-type-3-b {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #EE82EE;
+}
+
+.duplication-type-4 {
+  padding: 1px 2px 3px 4px;
+}
+
+.duplication-type-4 {
+  padding-left: 2px;
+}
+
+.duplication-type-5 {
+  color: #F00;
+  padding-left: 2px;
+}
+
+.duplication-type-5 {
+  text-decoration: underline;
+  color: #F00;
+  letter-spacing: 2px;
+}
+
+// DUPLICATIONS ON PROPERTIES
+// ------------------------
+
+.duplication-prop-1-1 {
+  font-size: $font-size-base;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.duplication-prop-1-2 {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: $font-size-base;
+}
+
+.duplication-prop-2-1 {
+  font-weight: 400;
+}
+
+.duplication-prop-2-2 {
+  font-weight: normal;
+}
+
+// useful?
+
+.duplication-prop-3-1 {
+  padding: 4px 3px 2px 1px;
+}
+
+.duplication-prop-3-1 {
+  padding-top: 4px;
+  padding-left: 3px;
+  padding-bottom: 2px;
+  padding-right: 1px;
+}
+
+
+// SPREAD DUPLICATIONS
+// ------------------
+
+.glowing-button {
+  widows: 24rem;
+  background-color: #F00;
+  border: 1px solid #000;
+}
+
+.huge-alert {
+  color: rgba(238, 130, 238, 1);
+}
+
+.red-border {
+  border: 1px solid #F00;
+}
+

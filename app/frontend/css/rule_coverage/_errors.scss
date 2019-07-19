@@ -1,0 +1,45 @@
+// SEMANTIC ERRORS
+// ------------------------
+
+.wrong-value {
+  margin-top: 1px;
+  padding: 15pixel;
+  font-size: $font-size-small;
+  font-weight: 700;
+}
+
+.slider {
+  width: calc(10rem + 10err);
+}
+
+.unknown-prop {
+  width: 5vh;
+  colr: #163;
+  text-align: center;
+}
+
+a {
+  my-property: 1;
+}
+
+a:UNKNOWN {
+  border: 1px solid #981232;
+}
+
+a:hoverr {
+  background-color: #981232;
+  color: #FFF;
+  font-weight: 700;
+}
+
+unkown {
+  height: 5rem;
+  width: 5rem;
+}
+
+a {
+  animation-name: fancccy-slide; 
+}
+@keyframes fancy-slide {}
+
+

@@ -1,3 +1,36 @@
-body {
-  background-color: red;
-}
+// Main File - entry point
+
+// ___________
+// Config
+
+@import "4_config/variables";
+
+// ___________
+// Components
+
+@import "1_components/alerts";
+@import "1_components/button";
+@import "1_components/side_navigation";
+
+// ___________
+// Alignments
+
+@import "2_alignment/display";
+@import "2_alignment/position";
+
+// ___________
+// Mixins
+
+@import "3_utils/mixins";
+@import "3_utils/placeholder";
+
+// ___________
+// Coverage
+
+@import "rule_coverage/duplications";
+@import "rule_coverage/errors";
+@import "rule_coverage/ignored_props";
+@import "rule_coverage/performance";
+@import "rule_coverage/specifity";
+@import "rule_coverage/spread_duplications";
+@import "rule_coverage/stylistics";

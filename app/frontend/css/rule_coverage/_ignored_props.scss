@@ -1,0 +1,71 @@
+// IGNORED PROPS
+// ------------------------
+
+.fancy-table {
+  display: inline;
+  width: 100rem;
+  margin-top: 2rem;
+}
+
+.fancy-item {
+  @include opacity(0.2);
+
+  display: list-item;
+  vertical-align: middle;
+}
+
+.super-table-column {
+  display: table-column;
+  vertical-align: middle;
+  margin: 1px;
+  padding: 1px;
+  height: 5rem;
+}
+
+.floated-element {
+  float: left;
+  vertical-align: top;
+}
+
+a.special-link {
+  font-size: $font-size-large;
+  color: $link-color;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: underline;
+  }
+}
+
+.special-link {
+  width: 5rem;
+  color: $gray-light;
+}
+
+// properties with !important
+.header {
+  display: flex;
+  flex: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  color: #432;
+}
+
+.header {
+  background-color: #432;
+  color: #ddd !important;
+}
+
+.gf-e {
+  display: block;
+  width: 34% !important;
+}
+
+.gf-e {
+  width: 34%;
+}
+
+.spread-selector {
+  height: 4rem;
+  text-align: right;
+}
