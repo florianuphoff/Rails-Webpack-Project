@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./frontend/css/frontend.scss"],"names":[],"mappings":"AAAA;EACE,qBAAqB","file":"css/frontend-0324b256.css","sourcesContent":["body {\n  background-color: red;\n}\n"],"sourceRoot":""}
