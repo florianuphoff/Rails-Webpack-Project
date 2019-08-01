@@ -152,3 +152,8 @@ code {
 
   text-align: center;
 }
+
+.oqipw {
+  @extend %tool;
+  color: $brand-primary;
+}

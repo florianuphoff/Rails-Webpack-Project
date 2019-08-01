@@ -1,6 +1,6 @@
 .button {
+  @include button-border(1px, $brand-danger);
   width: $button-width--xs;
-  border:  button-border(1px);
   
   &:hover {
 

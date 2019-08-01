@@ -6,6 +6,12 @@
 @import "4_config/variables";
 
 // ___________
+// Mixins
+
+@import "3_utils/mixins";
+@import "3_utils/placeholder";
+
+// ___________
 // Components
 
 @import "1_components/alerts";
@@ -17,12 +23,6 @@
 
 @import "2_alignment/display";
 @import "2_alignment/position";
-
-// ___________
-// Mixins
-
-@import "3_utils/mixins";
-@import "3_utils/placeholder";
 
 // ___________
 // Coverage

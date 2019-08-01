@@ -2784,24 +2784,24 @@ csso@^3.5.1:
   dependencies:
     css-tree "1.0.0-alpha.29"
 
-cssstats@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/cssstats/-/cssstats-3.3.0.tgz#e105427dd02663b12ffdee5981d6244a4bea6ab6"
-  integrity sha512-IMWt7iU9zqz2GuSYJaaR6p9TCFutcDg308+DN/haGhkQMX1uSLUymJ0IxV+oXyLSqs+/wNNKsF9RaRQC4IOrOQ==
+cssstats@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/cssstats/-/cssstats-3.3.1.tgz#db2ae8340dce2959e2f065b380733dce19d50a04"
+  integrity sha512-ONLp+m9qqKMn6VhTCdvIvBm5BZNFblaFPwyP6eVLGQCudVWc+mae+9rjsHFIOS8e7dWHsfJ05vffHbyEEND2BQ==
   dependencies:
     bytes "^3.0.0"
     css-selector-tokenizer "^0.7.0"
     css-shorthand-expand "^1.1.0"
     gzip-size "^4.1.0"
-    has-class-selector "^3.3.0"
-    has-element-selector "^3.3.0"
-    has-id-selector "^3.3.0"
-    has-pseudo-class "^3.3.0"
-    has-pseudo-element "^3.3.0"
+    has-class-selector "^3.3.1"
+    has-element-selector "^3.3.1"
+    has-id-selector "^3.3.1"
+    has-pseudo-class "^3.3.1"
+    has-pseudo-element "^3.3.1"
     is-blank "^2.1.0"
     is-css-shorthand "^1.0.1"
     is-present "^1.0.0"
-    is-vendor-prefixed "^3.3.0"
+    is-vendor-prefixed "^3.3.1"
     lodash "^4.17.5"
     postcss "^6.0.21"
     postcss-safe-parser "^3.0.1"
@@ -3916,15 +3916,15 @@ has-ansi@^2.0.0:
   dependencies:
     ansi-regex "^2.0.0"
 
-has-class-selector@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/has-class-selector/-/has-class-selector-3.3.0.tgz#75eee52e77dcc5e734c7897fd8a99474df7c7203"
-  integrity sha512-xxC3FqoqmX2F1EMGiknV9h1OjPd6bocrubuK2RUkjvROMhkmy0MceYM7pMVQ4a/Y2PRO1qPaIVSX8SnTruib+Q==
+has-class-selector@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/has-class-selector/-/has-class-selector-3.3.1.tgz#80740e93357bc0b96da42bc1d06e2a8a7d89943f"
+  integrity sha512-Gn2FutMyT2HO7Q4UbRrGQbk0HpGXIu1ptZnmPuVuzB3BoQffWVKzA+jV0Yxw3fxtuvuKbhJYJnGHrAMPFcuGow==
 
-has-element-selector@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/has-element-selector/-/has-element-selector-3.3.0.tgz#2c5cd8480e4808719e14895544d1d426604a23bb"
-  integrity sha512-+Xd0Q+gE9wndkYPzKkPxGa9W5/Ko8HuBrP1DhsRg6jJEHy0nU3NU1p1ivVL2hqBITaD/fV0l7AX3hU9NlGhdFQ==
+has-element-selector@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/has-element-selector/-/has-element-selector-3.3.1.tgz#2be3ac9c6d9048e9ccc4f95bcd9d7b80a61101c5"
+  integrity sha512-F0i77HehrvTV0U4t+Av8Pcgl3rrrfoZg8WCkvCuQNRWKjuUveEbiePwoMpqe2CXwd9Bc0C2Es0wvUbhIjh+kDw==
   dependencies:
     css-selector-tokenizer "^0.7.0"
 
@@ -3933,22 +3933,22 @@ has-flag@^3.0.0:
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
   integrity sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
 
-has-id-selector@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/has-id-selector/-/has-id-selector-3.3.0.tgz#7afd3e1a1d80aa54f5a401faee73998eb82442c7"
-  integrity sha512-JM9eFjdenfSPoXRucfL+m4h8VZAqsvw0Q7f3Jg4v3kHzkfdNvDeOmf5imigT/EjOcEWZcVHBAVoB+6Wk6Nbhag==
+has-id-selector@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/has-id-selector/-/has-id-selector-3.3.1.tgz#a3e76cc1655157d495d368168752d67a261c8ebe"
+  integrity sha512-Vhqzp4R/W15MPXpftmcAl0NQVbdh9XdKvT5OLybrz80nLfzcP/L0Qk6rLzzTcp3gr2w16O1cCVcgQCyMSirgFg==
 
-has-pseudo-class@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/has-pseudo-class/-/has-pseudo-class-3.3.0.tgz#3878b92f3da7cd3d5ebbadb904f709df46351d22"
-  integrity sha512-zkHGV9xlr04GBcBoJPT6Xaw3hT335ioljkpcC3rTYB0PWs9ybR98xsWACwt+et9x5qtTaA/1eUKlA8LkWhYOng==
+has-pseudo-class@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/has-pseudo-class/-/has-pseudo-class-3.3.1.tgz#b0513552f54e878b5bc0322a7f8be4a653852406"
+  integrity sha512-7qnV9FrqOqoGFfMAWgP08xkF65MGTg4g/Ope/vTyDDq2zFp2gNTT2floDuhwhJ0eVJLnyQm1YYafPnrTEe/OJg==
   dependencies:
     pseudo-classes "1.0.0"
 
-has-pseudo-element@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/has-pseudo-element/-/has-pseudo-element-3.3.0.tgz#f6b02ddf116c2add6e848d69cbba83d7a2734d26"
-  integrity sha512-d0BUyTU8UwAgx7KJQ5d33oCRrwRB42I7cHYNhetzvNBEQURMHNRHk+c3FenkqFcvHM44mL3RFb7FoQqORV1fcQ==
+has-pseudo-element@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/has-pseudo-element/-/has-pseudo-element-3.3.1.tgz#3f05d6826d2136eb6296c9562cf0ffa06a93adbe"
+  integrity sha512-X33R/CkIOPRhgdPpR7ANE+5y9YvBndQVCyO5DVPFVCY3haNHccYjsnck/nhAaXbA5zTQriM1BtdqNI4biYUv+g==
   dependencies:
     pseudo-elements "1.0.0"
 
@@ -4680,10 +4680,10 @@ is-utf8@^0.2.0:
   resolved "https://registry.yarnpkg.com/is-utf8/-/is-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
   integrity sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI=
 
-is-vendor-prefixed@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/is-vendor-prefixed/-/is-vendor-prefixed-3.3.0.tgz#01a4e904588629e4c35be7f7771a81e986013499"
-  integrity sha512-P8aQoDqlPI2E+zpqsKWf0+KBDNVdVYgfPXsIBDGDQ7oRaSEPsSEKkbHM8ZbKlsDZh8NgCWwjK6Ks4X7ONK7VpQ==
+is-vendor-prefixed@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/is-vendor-prefixed/-/is-vendor-prefixed-3.3.1.tgz#0746b332b4c651bb20f16fd6aa996e9a87c09673"
+  integrity sha512-s/bVQt87pP6gm3OlJm78i11Cw1D8BBmkffVhxwdO/jvtcVYKjYkq7BY85rortwA5smP77+xtz+ooobfr/5Wmxg==
   dependencies:
     vendor-prefixes "1.0.0"
 
@@ -8147,20 +8147,40 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-stylelint-code-quality-config@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-code-quality-config/-/stylelint-code-quality-config-0.1.0.tgz#f8fab9fc055154de7a118f565b08a7eaad1ea414"
-  integrity sha512-8FyUad6qiEEKB8MLzb7hY14QJGca71cjNAlllu3c8O8EEvIjN/6TgI/tVsSGdlFGcpoI3u6NqZ6hwTtCgCg8Dw==
+stylelint-code-quality-config@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/stylelint-code-quality-config/-/stylelint-code-quality-config-0.2.1.tgz#c9da4fd053b2f341a3ee4a04cdc592a3cfa50b43"
+  integrity sha512-3zN23CbyxqIGvSmeDjdxQcoLr4ULxnEp7DZDukMW/OJlf+J1Y9mljVGdMEyrK6hYzyMTSOzAi2pW2lzACL5ekA==
   dependencies:
+    stylelint-declaration-block-no-ignored-properties "^2.1.0"
     stylelint-high-performance-animation "^1.2.1"
-    stylelint-scss "^3.9.0"
+    stylelint-mixin-extend-usage "0.1.0"
+    stylelint-no-undoing-styles "^1.0.0"
+    stylelint-scss "^3.9.2"
+
+stylelint-declaration-block-no-ignored-properties@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.1.0.tgz#3481ad47783441637165b0b15f0f01cc4fa21211"
+  integrity sha512-uz9aPLJc5cLHWmrEgXOxxobjjhuJFFO2a4XKGgVooL4Ip4OagLl9HaDlDJwr8vzbs0ZRhotaUJh+zrZcK19z/g==
+  dependencies:
+    postcss "^7.0.14"
 
 stylelint-high-performance-animation@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.2.1.tgz#544ab13978707c19d1d581d079aa848fa709717a"
   integrity sha512-jHkX30yZP7Z7/EdbS7XyBEn7tWgTZAeJ0XnRXIS776QnVy4FBzsE2GcY9oQPJOPk/z7DdBr4jjpSuh9tn8UeIw==
 
-stylelint-scss@^3.9.0:
+stylelint-mixin-extend-usage@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/stylelint-mixin-extend-usage/-/stylelint-mixin-extend-usage-0.1.0.tgz#eca7f0c150556bd8ed0d8d39bc0c1b8c8fc4fbc3"
+  integrity sha512-FkBXiPnNw2fhRmww5AqvCZ1sfC44spl9rVtj/buMvg4m+sSdhqEEC7VuT1ubExwoWsWHOk1lFPWet6lw/1vPWg==
+
+stylelint-no-undoing-styles@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-no-undoing-styles/-/stylelint-no-undoing-styles-1.0.0.tgz#9105d0fd72309f8e13db6479936f42d638b8c880"
+  integrity sha512-LYFckBKBCk9NGKGZZ8yFF0erJfM9ZFnFvSwFyYLECRVuhBCIso3Q1d1MhHNvETxTx48gr8TOjbL6DFBRpZ0jVw==
+
+stylelint-scss@^3.9.2:
   version "3.9.2"
   resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.9.2.tgz#5435174a57696ee52eae40146778a4e62f7ed3a3"
   integrity sha512-VUh173p3T1qJf016P7yeJ6nxkUpqF5qQ+VSDw3J8P6wEJbA1loaNgBHR3k3skHvUkF+9brLO1ibCHA00pjW3cw==
@@ -8225,13 +8245,13 @@ stylelint@^10.1.0:
     svg-tags "^1.0.0"
     table "^5.2.3"
 
-stylesheet-code-quality-webpack-plugin@^0.1.15:
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/stylesheet-code-quality-webpack-plugin/-/stylesheet-code-quality-webpack-plugin-0.1.15.tgz#dcd8f1b796d5d98617d71bed8a9bfdd0b0c18dcb"
-  integrity sha512-ecKiGuUGqJ/ds0tYiEg9N8AK9Lc3yhvHkoXvgp1sF1K0g3WWNzPTMmBIfULtB5Ko1S9g3YDcNmBIKCURzI+Zvw==
+stylesheet-code-quality-webpack-plugin@^0.1.17:
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/stylesheet-code-quality-webpack-plugin/-/stylesheet-code-quality-webpack-plugin-0.1.17.tgz#b2ebd2a8c8d4774abfdf7aeed59c4c9b54ee8494"
+  integrity sha512-m6PXD75DlyGbYoMzYxj8q0yyYXgdNknWQxdOLOLaqf8gIqUW5+xF4894i4IY8CpchQPO6ZXIuDZSJqRU6KZDuA==
   dependencies:
     arrify "^2.0.1"
-    cssstats "^3.3.0"
+    cssstats "^3.3.1"
     fast-glob "^3.0.4"
     mkdirp "^0.5.1"
     neo-async "^2.6.1"
