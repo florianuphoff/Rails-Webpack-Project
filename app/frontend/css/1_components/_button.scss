@@ -3,18 +3,19 @@
   width: $button-width--xs;
   
   &:hover {
-
+    font-weight: bold;
   }
 
   &--glowing {
-
+    background-color: #db6300;
+    color: #ffffff;
   }
 
   &--outline {
-
+    border-width: 4px;
   }
 
   &--filled {
-    
+    display: block;
   }
 }

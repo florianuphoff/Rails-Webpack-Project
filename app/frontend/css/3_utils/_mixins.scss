@@ -17,7 +17,7 @@
 }
 
 @mixin outline-button() {
-  @include button-border($width: 1rem, $color: #CA5555);
+  @include button-border($width: 1rem, $color: #CA5515);
 
   background: #FFF;
   color: #585858;

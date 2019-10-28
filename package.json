@@ -11,18 +11,21 @@
     "css-loader": "^3.1.0",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",
+    "postcss-resolve-nested-selector": "^0.1.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "stylelint-code-quality-config": "^0.2.1",
-    "stylesheet-code-quality-webpack-plugin": "^0.1.17",
+    "stylelint-code-quality-config": "^1.0.1",
+    "stylesheet-code-quality-webpack-plugin": "^1.0.5",
     "webpack": "^4.36.1",
-    "webpack-manifest-plugin": "^2.0.4"
+    "webpack-manifest-plugin": "^2.0.4",
+    "webpack-merge": "^4.2.2"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.7.2"
   },
   "scripts": {
+    "start:dev": "npx webpack-dev-server --progress --color --mode development --config webpack/webpack.devServer.js",
     "build:prod": "npx webpack --mode production --config webpack.config.js",
-    "build:dev": "npx webpack --mode development --config webpack.config.js"
+    "build:dev": "npx webpack --mode development --config webpack/webpack.prod.js"
   }
 }

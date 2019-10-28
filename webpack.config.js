@@ -5,7 +5,6 @@ const autoprefixer = require('autoprefixer');
 const path = require('path');
 const ManifestPlugin = require('webpack-manifest-plugin');
 
-console.log(path.resolve(__dirname, "node_modules"));
 const resolve = {
   modules: [
     "node_modules",
@@ -85,7 +84,8 @@ const webpackModule = {
 
 const plugins = [
   new SCCWebpackPlugin({
-    message: "Hello from vue app"
+    copyTo: '/public/dashboard',
+    exportLocation: '/dashboard/'
   }),
   //
   new ManifestPlugin({

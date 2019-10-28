@@ -27,10 +27,13 @@
 // ___________
 // Coverage
 
-@import "rule_coverage/duplications";
-@import "rule_coverage/errors";
-@import "rule_coverage/ignored_props";
-@import "rule_coverage/performance";
-@import "rule_coverage/specifity";
-@import "rule_coverage/spread_duplications";
-@import "rule_coverage/stylistics";
+@import "rule_coverage/dashboard";
+@import "rule_coverage/enhancement";
+@import "rule_coverage/components";
+@import "rule_coverage/typo";
+@import "rule_coverage/elements";
+@import "rule_coverage/partials";
+@import "rule_coverage/style";
+
+// vendor
+@import "vendor/basics"

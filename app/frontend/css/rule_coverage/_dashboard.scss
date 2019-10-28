@@ -1,0 +1,98 @@
+// DUPLICATIONS WITH SAME SELECTORS
+// ------------------------
+
+
+// type 1
+.d1 {
+  color: #F00;
+  border: 1px solid #a23;
+}
+
+.d1d {
+  border: 1px solid #a23;
+  color: hsl(0, 100%, 50%);
+}
+
+.m-s__headline {
+  font-size: 1px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.slider-title {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 1px;
+}
+
+.section-title {
+  margin-bottom: 5px;
+  font-size: $font-size-base;
+  text-decoration: underline;
+}
+
+.banner-h2 {
+  text-decoration: underline;
+  font-size: $font-size-base;
+  margin-bottom: 5px;
+}
+
+// type 2
+
+
+// type 3
+
+.card-warpper {
+  padding: 4px 3px 2px 1px;
+}
+
+.banner-box {
+  padding-top: 4px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+  padding-left: 1px;
+}
+
+.toast {
+  margin-top: 1px;
+  margin-right: 2px;
+  margin-bottom: 1px;
+  margin-left: 2px;
+}
+
+.input--registry {
+  margin: 1px 2px;
+}
+
+.highlight {
+  border: 1px solid #EE82EE;
+}
+
+.new-highlight {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #EE82EE;
+}
+
+// type 4
+
+.b-box {
+  padding: 1px 2px 3px 4px;
+}
+
+.nav__item {
+  padding-right: 2px;
+}
+
+
+// SPREAD DUPLICATIONS
+// ------------------
+
+.glowing-button {
+  widows: 24rem;
+  background-color: #F00;
+}
+
+.red-border {
+  border: 1px solid #F00;
+}

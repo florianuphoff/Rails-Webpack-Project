@@ -1,0 +1,23 @@
+// SPREAD PROPERTIES
+// from duplications.scss
+// ----------------------
+
+// type 1
+.glowing-button {
+  widows: 24rem;
+  background-color: #F00;
+}
+
+.red-border {
+  @include clearfix();
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #F00;
+}
+
+// ignored-prop
+.spread-selector {
+  font-size: $font-size-small;
+  text-align: center !important;
+}
