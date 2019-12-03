@@ -1,6 +1,6 @@
 {
   "name": "rails-testproject",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^4.0.7",
