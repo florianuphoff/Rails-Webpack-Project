@@ -1,10 +1,14 @@
 module ApplicationHelper
+  def webpack_asset_url(name)
+   "/packs/#{webpack_fingerprint_for(name)}"
+  end
+
   def webpack_css(*args)
     urls = Array(args).map do |style|
       webpack_fingerprint_for("#{style}.css")
     end
-
-    stylesheet_link_tag(*urls, media: nil)
+   
+    stylesheet_link_tag(*urls, media: nil, skip_pipeline: true)
   end
 
   def webpack_js(*args)
@@ -12,7 +16,7 @@ module ApplicationHelper
       webpack_fingerprint_for("#{js}.js")
     end
 
-    javascript_include_tag(*urls)
+    javascript_include_tag(*urls, skip_pipeline: true)
   end
 
   def webpack_fingerprint_for(name)
@@ -22,6 +26,6 @@ module ApplicationHelper
       return ''
     end
 
-    @chunk_manifest[name]
+    "/" + @chunk_manifest[name]
   end
 end

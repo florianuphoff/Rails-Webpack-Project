@@ -9732,10 +9732,10 @@ stylelint@^10.1.0:
     svg-tags "^1.0.0"
     table "^5.2.3"
 
-stylesheet-code-quality-webpack-plugin@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/stylesheet-code-quality-webpack-plugin/-/stylesheet-code-quality-webpack-plugin-1.0.5.tgz#0c4cc326c2193a9ba6d0dddef366d9bc7ed6668c"
-  integrity sha512-2vS4znkR+vmRcfqGHaJOjShQPHSJBR4xl7+zYKBrKcbY37A0nQcRoLRh/8roPcbxpxy0igHAs9qz1HnFLhAcLA==
+stylesheet-code-quality-webpack-plugin@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/stylesheet-code-quality-webpack-plugin/-/stylesheet-code-quality-webpack-plugin-1.0.6.tgz#ba611f03afc216879fc990485c2222f047557ada"
+  integrity sha512-ImuikvDx+HMofgB+YwJmaXwGzSggyTjRm9CMztMB9384bRd/niIX+ENZSTHdeftTlTeJ/ewh8mdf4FFlS4oJUA==
   dependencies:
     "@vue/cli-service" "^3.11.0"
     arrify "^2.0.1"

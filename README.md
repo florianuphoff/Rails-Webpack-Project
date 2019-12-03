@@ -1,28 +1,22 @@
 # Rails webpack(er) project
-This project ships with webpacker and webpack with rails. JS, CSS files are bundled with webpack.
-You can bundle other files like images or fonts with webpack as well.
+Das Projekt dient zur Evaluation des Analyseplugins stylesheet-code-quality-webpack-plugin.
 
-The main purpose of this project is to function as a test project for analysis plugins.
-Stylesheet-code-quality-webpack-plugin hooks into the bundling and analyzes the SCSS and CSS files.
+* Konfiguration
+Die Applikation kompilieren und den aktuellen SCSS Quellcode analysieren:
+```bash
+yarn run build:prod
+```
 
-Why use webpack and not rubys webpacker?
-Poor documentation and the javascript config abstraction is less "friendly". 
-So why should you use an abstraction when the native implementation works?
+Den Webpack-Dev-Server starten, um Assets über Webpack und nicht Sprockets ausliefern zu lassen:
+```bash
+yarn run start:dev
+```
 
-* Ruby version
+Rails-Server starten:
+```bash
+rails s
+```
+* Analysebericht aufrufen
+Um den Bericht der Analyse anzusehen, folgende URL im Browser aufrufen:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+http://localhost:3000/dashboard/#/
