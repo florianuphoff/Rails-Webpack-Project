@@ -7374,7 +7374,7 @@ postcss-calc@^7.0.1:
     postcss-selector-parser "^5.0.0-rc.4"
     postcss-value-parser "^3.3.1"
 
-postcss-code-duplication@^1.2.1:
+postcss-code-duplication@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/postcss-code-duplication/-/postcss-code-duplication-1.2.2.tgz#79ae1f14056d3c7bb890e72340ceb0588d9da3c9"
   integrity sha512-ixjZJ6UL8V2wh0qfPpwi13/q6Ml4jG2gmAWgbX96chbfu+k5EpTn4pwiUnIo7nFDAsH3V+1hO/2PhVCD3PyfXw==
@@ -9732,10 +9732,10 @@ stylelint@^10.1.0:
     svg-tags "^1.0.0"
     table "^5.2.3"
 
-stylesheet-code-quality-webpack-plugin@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/stylesheet-code-quality-webpack-plugin/-/stylesheet-code-quality-webpack-plugin-1.0.6.tgz#ba611f03afc216879fc990485c2222f047557ada"
-  integrity sha512-ImuikvDx+HMofgB+YwJmaXwGzSggyTjRm9CMztMB9384bRd/niIX+ENZSTHdeftTlTeJ/ewh8mdf4FFlS4oJUA==
+stylesheet-code-quality-webpack-plugin@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/stylesheet-code-quality-webpack-plugin/-/stylesheet-code-quality-webpack-plugin-1.0.7.tgz#c147a40d94cd74303913d431e7869655b0e385d1"
+  integrity sha512-D7bIJnsPUCMrJ8gh0hbj3VHdPTT4HbK0hak6nlNdZwVdlTetr/9hsiFkP006xn/iXKMt0uXuFYGpQvXuuB0sXA==
   dependencies:
     "@vue/cli-service" "^3.11.0"
     arrify "^2.0.1"
@@ -9747,7 +9747,7 @@ stylesheet-code-quality-webpack-plugin@^1.0.6:
     npm-run "^5.0.1"
     path "^0.12.7"
     postcss "^7.0.17"
-    postcss-code-duplication "^1.2.1"
+    postcss-code-duplication "^1.2.2"
     postcss-resolve-nested-selector "^0.1.1"
     postcss-selector-stats "^1.1.0"
     stylelint "^10.1.0"

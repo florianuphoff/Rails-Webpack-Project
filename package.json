@@ -16,7 +16,7 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "stylelint-code-quality-config": "^1.0.1",
-    "stylesheet-code-quality-webpack-plugin": "^1.0.6",
+    "stylesheet-code-quality-webpack-plugin": "^1.0.7",
     "webpack": "^4.36.1",
     "webpack-manifest-plugin": "^2.0.4",
     "webpack-merge": "^4.2.2"
